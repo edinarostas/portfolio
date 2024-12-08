@@ -1,0 +1,16 @@
+@use './_variables' as *;
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section, footer {
+  padding: 2rem 10rem;
+}

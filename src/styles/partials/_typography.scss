@@ -1,0 +1,123 @@
+@use "./breakpoints" as *;
+@use "./variables" as *;
+
+// MOBILE
+body,
+input {
+    min-height: 2.25rem;
+
+    @include tablet {
+        min-height: 2.5rem;
+    }
+
+    @include desktop {
+        min-height: 2.75rem;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+    color: $black-color;
+}
+
+// Padding
+section {
+    padding: 1rem;
+
+    @include tablet {
+        padding: 1.5rem;
+    }
+
+    @include desktop {
+        padding: 1.65rem;
+    }
+}
+
+// Page Header:
+h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+
+    @include tablet {
+        font-size: 2.0625rem;
+        line-height: 2.75rem;
+    }
+
+    @include desktop {
+        font-size: 2.26875rem;
+        line-height: 3.025rem;
+    }
+}
+
+// Section header:
+h2 {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+
+    @include tablet {
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
+
+    @include desktop {
+        font-size: 0.825rem;
+        line-height: 1.375rem;
+    }
+}
+
+// Subheader:
+h3 {
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+
+    @include tablet {
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+        font-weight: 700;
+    }
+
+    @include desktop {
+        font-size: 0.9625rem;
+        line-height: 1.5125rem;
+    }
+}
+
+// Body Copy:
+p {
+    font-size: 0.8125rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+
+    @include tablet {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    @include desktop {
+        font-size: 1.1rem;
+        line-height: 1.65rem;
+    }
+}
+
+// Labels & Buttons:
+a,
+label,
+button {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    @include desktop {
+        font-size: 0.825rem;
+        line-height: 1.375rem;
+    }
+}

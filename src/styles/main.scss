@@ -1,2 +1,4 @@
-@import './_variables';
-@import './_global';
+@use './partials/_variables' as *;
+@use './partials/_global';
+@use './partials/_breakpoints';
+@use './partials/_typography';
