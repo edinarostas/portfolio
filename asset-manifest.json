@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cb297553.css",
-    "main.js": "/portfolio/static/js/main.10681760.js",
+    "main.css": "/portfolio/static/css/main.54effb49.css",
+    "main.js": "/portfolio/static/js/main.ff90520e.js",
     "static/media/FinanceFirst_cover_photo.png": "/portfolio/static/media/FinanceFirst_cover_photo.b17e9d78e6859e8a4d70.png",
     "static/media/binary_background.png": "/portfolio/static/media/binary_background.3d72bf901652e61cf7bc.png",
     "static/media/ScamShield_cover_photo.png": "/portfolio/static/media/ScamShield_cover_photo.1a00b7993442d419e354.png",
@@ -9,7 +9,6 @@
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
-    "static/media/window_background.png": "/portfolio/static/media/window_background.774ba6f754bf234d60e7.png",
     "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.fdbb558523a380307689.woff2",
     "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
     "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
@@ -17,11 +16,11 @@
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "static/media/circle_logo_black.svg": "/portfolio/static/media/circle_logo_black.8b5797a451e3725a562dc0bb6b26c7bb.svg",
     "index.html": "/portfolio/index.html",
-    "main.cb297553.css.map": "/portfolio/static/css/main.cb297553.css.map",
-    "main.10681760.js.map": "/portfolio/static/js/main.10681760.js.map"
+    "main.54effb49.css.map": "/portfolio/static/css/main.54effb49.css.map",
+    "main.ff90520e.js.map": "/portfolio/static/js/main.ff90520e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb297553.css",
-    "static/js/main.10681760.js"
+    "static/css/main.54effb49.css",
+    "static/js/main.ff90520e.js"
   ]
 }
