@@ -15,39 +15,30 @@
   }
 
   &__container {
-    background: url("../../assets/images/window_background.png") no-repeat center;
-    background-size: 100% 100%;
-    @include flex(row, center, null);
-    width: 100%;
-    aspect-ratio: 3 / 2;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    @include flex(column, center, flex-start);
+    width: 90%;
+    height: 550px;
+    padding: 2rem;
     color: $black-color;
     overflow: hidden;
-    padding: 2rem 1rem 1.5rem 1rem;
-    overflow-y: auto;
-    max-height: 35vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
     @include tablet {
-      background-size: contain;
-      max-height: 100vh;
-      padding: 4rem 6rem;
       width: 60%;
-      overflow-y: hidden;
+      height: 650px;
     }
 
     @include desktop {
-      max-height: 100%;
+      width: 50%;
+      height: 525px;
     }
-
   }
 
   &__header {
-    padding-top: 5rem;
-    @include flex(row, center, center);
-
-    @include tablet {
-      padding: 0 0 2rem 0;
-      justify-content: flex-start;
-    }
+    padding: 1rem 0;
+    @include flex(row, center, flex-start);
   }
 
   &__profile-picture {
@@ -55,38 +46,36 @@
     height: 4.5rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 3rem;
-    border: .25rem solid $primary-color;
+    margin-right: 1rem;
+    border: 0.25rem solid $primary-color;
 
     @include tablet {
-      width: 9rem;
-      height: 9rem;
+      width: 6rem;
+      height: 6rem;
     }
   }
 
   &__content {
-    @include flex(column, null, center);
-    flex: 1;
-    margin-top: .5rem;
-    padding-top: 1.4rem;
-    max-height: 35vh;
+    width: 100%;
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
     overflow-y: auto;
-
-    @include tablet {
-      margin-top: 0;
-      padding-top: 0;
-      max-height: 100vh;
-      overflow-y: hidden;
-    }
-  }
-
-  &__title {
-    margin-bottom: 1rem;
-    color: $black-color;
+    overflow-x: hidden;
+    max-height: 100%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
   }
 
   &__description {
-    text-align: justify;
-    color: #444;
+    text-align: left;
+    color: $black-color;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    white-space: pre-line;
   }
 }

@@ -1,13 +1,9 @@
 @use "./breakpoints" as *;
 @use "./variables" as *;
 
-// justify-content: alignment on the main axis |
-// align-items: alignment on the cross axis __
-
 @mixin flex($directon, $align-items, $justify-content) {
     display: flex;
     flex-direction: $directon;
     align-items: $align-items;
     justify-content: $justify-content;
 }
-
