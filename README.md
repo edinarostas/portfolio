@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Edina's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio!
 
-## Available Scripts
+I’m Edina, a passionate self-taught Full-Stack Developer and Bootcamp graduate with a BSc in Product Management. This portfolio showcases the skills, projects, and experience I’ve gained throughout my coding journey. It serves as a testament to my expertise in full-stack development, AI technologies, and product management, along with my dedication to creating innovative and user-centered tech solutions.
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This portfolio is a single-page web application that highlights:
+- My technical skills and experience.
+- A selection of projects I've worked on.
+- My passion for developing AI technologies, including Large Language Models (LLMs) and Retrieval Augmented Generation (RAG).
+- My background in bridging the gap between tech and product management to deliver impactful, user-focused solutions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This portfolio is built using the following technologies:
+- **Frontend**:
+  - React.js
+  - Sass (CSS Preprocessing)
+  - JavaScript
+- **Backend** (if applicable to your projects, add here):
+  - Node.js
+  - Express.js
+ 
+## Key Features
 
-### `npm test`
+- **Responsive Design**: The portfolio is fully responsive, designed to look great on all devices, from desktops to mobile phones.
+- **Dynamic Content**: Experience a typing animation that brings my introduction and details to life as the page loads, showcasing my development skills.
+- **Project Showcases**: Learn about some of the personal and professional projects I’ve worked on, demonstrating my proficiency in both frontend and backend development.
+- **AI Focus**: Highlighting my deep interest in Artificial Intelligence and my experience with building and deploying models, particularly in the context of Large Language Models (LLMs) and RAG (Retrieval Augmented Generation).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## View My Portfolio
 
-### `npm run build`
+You can view my live portfolio page hosted on GitHub Pages using the link below:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[**View My Portfolio**](https://edinarostas.github.io/portfolio)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact Me
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to reach out to me through any of the following platforms:
+- **LinkedIn**: [My LinkedIn Profile](https://www.linkedin.com/in/edina-hollo/)
+- **Email**: [My Email Address](mailto:edina.hollo8@gmail.com)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my portfolio! I look forward to connecting and discussing future opportunities.
