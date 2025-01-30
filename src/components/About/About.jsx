@@ -39,7 +39,7 @@ const About = () => {
     }, 100);
 
     return () => clearInterval(typingHeaderInterval);
-  });
+  }, [contentFullText]);
 
   return (
     <section className="about" id="about">
@@ -49,7 +49,7 @@ const About = () => {
             <img
               className="about__profile-picture"
               src={PrfilePhoto}
-              alt="Headshot"
+              alt="Profile Pic"
             />
             <h1 className="about__title">{headerText}</h1>
           </div>
