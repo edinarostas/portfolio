@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PrfilePhoto from '../../assets/images/headshot.jpg';
+import Resume from '../../assets/resume/Edina_Hollo_Resume.pdf';
 import './About.scss';
 
 const About = () => {
@@ -38,7 +39,7 @@ const About = () => {
     }, 100);
 
     return () => clearInterval(typingHeaderInterval);
-  }, []);
+  });
 
   return (
     <section className="about" id="about">
@@ -48,7 +49,7 @@ const About = () => {
             <img
               className="about__profile-picture"
               src={PrfilePhoto}
-              alt="Profile Picture"
+              alt="Headshot"
             />
             <h1 className="about__title">{headerText}</h1>
           </div>
@@ -56,6 +57,15 @@ const About = () => {
             <p>{contentText}</p>
           </div>
         </div>
+      </div>
+      <div className="about__resume">
+        <a
+          href={Resume}
+          download="Edina_Hollo_Resume.pdf"
+          className="about__resume-link"
+        >
+          Download My Resume
+        </a>
       </div>
     </section>
   );
