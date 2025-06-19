@@ -6,10 +6,10 @@ I’m Edina, a passionate self-taught Full-Stack Developer and Bootcamp graduate
 
 ## Overview
 
-This portfolio is a single-page web application that highlights:
+This portfolio highlights:
 - My technical skills and experience.
 - A selection of projects I've worked on.
-- My passion for developing AI technologies, including Large Language Models (LLMs) and Retrieval Augmented Generation (RAG).
+- My passion for developing AI technologies, including Large Language Models (LLMs)
 - My background in bridging the gap between tech and product management to deliver impactful, user-focused solutions.
 
 ## Technologies Used
@@ -19,7 +19,7 @@ This portfolio is built using the following technologies:
   - React.js
   - Sass (CSS Preprocessing)
   - JavaScript
-- **Backend** (if applicable to your projects, add here):
+- **Backend**:
   - Node.js
   - Express.js
  
@@ -28,7 +28,7 @@ This portfolio is built using the following technologies:
 - **Responsive Design**: The portfolio is fully responsive, designed to look great on all devices, from desktops to mobile phones.
 - **Dynamic Content**: Experience a typing animation that brings my introduction and details to life as the page loads, showcasing my development skills.
 - **Project Showcases**: Learn about some of the personal and professional projects I’ve worked on, demonstrating my proficiency in both frontend and backend development.
-- **AI Focus**: Highlighting my deep interest in Artificial Intelligence and my experience with building and deploying models, particularly in the context of Large Language Models (LLMs) and RAG (Retrieval Augmented Generation).
+- **AI Focus**: Highlighting my deep interest in Artificial Intelligence and my experience with building and deploying models, particularly in the context of Large Language Models (LLMs)
 
 ## View My Portfolio
 
