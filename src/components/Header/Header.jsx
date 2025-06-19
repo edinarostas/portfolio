@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Header.scss';
 import Logo from '../../assets/logos/circle_logo_black.svg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,10 +12,10 @@ const Header = () => {
 
   return (
     <header className="header">
-      <a href="/" className="header__logo">
+      <Link to="/" className="header__logo">
         <img src={Logo} alt="Edina Hollo Logo" />
         <span>Edina Hollo</span>
-      </a>
+      </Link>
       <button
         className={`header__menu-toggle ${menuOpen ? 'header__menu-toggle--open' : ''}`}
         onClick={toggleMenu}
@@ -24,9 +25,9 @@ const Header = () => {
       </button>
       <nav className={`header__nav ${menuOpen ? 'header__nav--open' : ''}`}>
         <ul className="header__list">
-          <li className="header__item"><a href="#about" className="header__link">About</a></li>
-          <li className="header__item"><a href="#projects" className="header__link">Projects</a></li>
-          <li className="header__item"><a href="#contact" className="header__link">Contact</a></li>
+          <li className="header__item"><Link to="/" className="header__link" onClick={() => setMenuOpen(false)}>About</Link></li>
+          <li className="header__item"><Link to="/projects" className="header__link" onClick={() => setMenuOpen(false)}>Projects</Link></li>
+          <li className="header__item"><Link to="/blog" className="header__link" onClick={() => setMenuOpen(false)}>Blog</Link></li>
         </ul>
       </nav>
     </header>

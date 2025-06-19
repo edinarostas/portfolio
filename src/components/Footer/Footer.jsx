@@ -17,7 +17,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer__texts">
-      <p className="footer__text">© 2024 Edina Hollo</p>
+      <p className="footer__text">© 2025 Edina Hollo</p>
       <p className="footer__text">All rights reserved.</p>
       </div>
       
