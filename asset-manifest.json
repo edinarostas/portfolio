@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.09d20f07.css",
-    "main.js": "/portfolio/static/js/main.798ac178.js",
+    "main.css": "/portfolio/static/css/main.5469d003.css",
+    "main.js": "/portfolio/static/js/main.40da1058.js",
     "static/media/FinanceFirst_cover_photo.png": "/portfolio/static/media/FinanceFirst_cover_photo.b17e9d78e6859e8a4d70.png",
     "static/media/binary_background.png": "/portfolio/static/media/binary_background.3d72bf901652e61cf7bc.png",
     "static/media/ScamShield_cover_photo.png": "/portfolio/static/media/ScamShield_cover_photo.1a00b7993442d419e354.png",
@@ -17,11 +17,11 @@
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "static/media/circle_logo_black.svg": "/portfolio/static/media/circle_logo_black.8b5797a451e3725a562dc0bb6b26c7bb.svg",
     "index.html": "/portfolio/index.html",
-    "main.09d20f07.css.map": "/portfolio/static/css/main.09d20f07.css.map",
-    "main.798ac178.js.map": "/portfolio/static/js/main.798ac178.js.map"
+    "main.5469d003.css.map": "/portfolio/static/css/main.5469d003.css.map",
+    "main.40da1058.js.map": "/portfolio/static/js/main.40da1058.js.map"
   },
   "entrypoints": [
-    "static/css/main.09d20f07.css",
-    "static/js/main.798ac178.js"
+    "static/css/main.5469d003.css",
+    "static/js/main.40da1058.js"
   ]
 }
